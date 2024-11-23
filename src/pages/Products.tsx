@@ -244,7 +244,7 @@ export default function Products() {
             setShowForm(false);
             setEditingProduct(null);
           }}
-          initialData={editingProduct}
+          initialData={editingProduct || undefined}
         />
       )}
     </div>
